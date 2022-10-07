@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/node-red/red.js -u ./ ./flows.json",
+    "start": "node node_modules/node-red/red.js -u /tmp ./flows.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
