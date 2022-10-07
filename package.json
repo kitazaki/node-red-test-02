@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/node-red/red.js -u /tmp",
+    "start": "node node_modules/node-red/red.js -u /etc/secrets",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
