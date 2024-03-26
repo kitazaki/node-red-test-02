@@ -2,6 +2,9 @@
   "name": "20220912",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "18.x"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/node-red/red.js -u /tmp ./flows.json",
